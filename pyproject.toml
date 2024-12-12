@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prettymapsfork"
+version = "0.1.0"
+description = "A small set of Python functions to draw pretty maps from OpenStreetMap data."
+authors = ["Cormac O' Sullivan <cormac@cosullivan.dev> Marcelo Prates <marceloorp@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "prettymapsfork"
